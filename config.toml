@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Tim Ullrich"
+theme = "pickles"
+
+[params]
+  paginate = 10
+  subtitle = "Adventures in coding"
+  authorwebsite = "tullrich.com"
+  contact = "mailto:timothy.ullrich@gmail.com"
+  avatar = "/img/Avatar_Cropped.jpg"
+  description = "Personal Blog"
+  logo = "/img/Avatar_Cropped.jpg"
+  favicon = "/img/Avatar_Cropped.jpg"
+  github = "tullrich"
+  linkedin = "tim-ullrich-8a716657"
+  twitter = "tjullrich"
+  email = "timothy.ullrich@gmail.com"
+
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
